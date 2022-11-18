@@ -110,3 +110,30 @@ body{
     margin-left: 25rem ;
     margin-right: 25rem;
 }
+
+
+.alertbox{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1.5%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.input_matrix{
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+
+.blankMatrix{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+   
+
+}

@@ -10,7 +10,8 @@ import Paper from '@mui/material/Paper';
 import { Chart, Series } from 'devextreme-react/chart';
 import Alert from '@mui/material/Alert';
 import Stack from '@mui/material/Stack';
-
+import { autocompleteClasses } from "@mui/material";
+import axios from "axios";
 
 
 const Parser = require('expr-eval').Parser;
@@ -115,8 +116,8 @@ class Bisection extends React.Component
           
         
         //return"XM="+xm+" at Iteration = "+i; //calc wont re-render so i stuck at this 
-      }return(    <Stack sx={{ width: '100%' }} spacing={2}>
-      <Alert severity="error">ใส่ให้ครบนะครับพี่ชาย</Alert>
+      }return(    <Stack sx={{ width: '50%' ,marginRight:"auto",marginLeft:"auto" }} spacing={50}>
+      <Alert  severity="error">ใส่ให้ครบนะครับพี่ชาย</Alert>
   
     </Stack>)
       
